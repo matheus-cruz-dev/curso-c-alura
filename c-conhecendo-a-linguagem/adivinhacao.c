@@ -22,6 +22,15 @@ int main() {
 	}
 	else {
 		printf("Você errou!\n");
+
+		if (chute > numerosecreto)
+		{
+			printf("Seu chute foi maior que o número secreto\n");
+		}
+		else {
+			printf("Seu chute foi menor que o número secreto\n");
+		}
+
 		printf("Mas não desanime, tente de novo!\n");
 	}
 }
